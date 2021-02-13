@@ -11,7 +11,7 @@ class App extends Component {
         <Switch>
           <Route path="/404_NotFound" component={Notfound} exact />
           {/* <PortectedRoute path="/" component={Home} exact={true} /> */}
-          <PortectedRoute path="/" component={MovieList} />
+          <PortectedRoute path="/sample" component={MovieList} exact={true} />
         </Switch>
       </BrowserRouter>);
   }
