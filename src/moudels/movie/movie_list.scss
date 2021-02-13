@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap");
+
+.movie-list-items {
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+  padding: 1vw;
+  &:hover {
+    background-color: rgba(255, 102, 0, 0.041);
+  }
+  //   width: 15vw;
+  //   height: 55vh;
+}
+.from-ten > p {
+  display: inline;
+  color: rgba(128, 128, 128, 0.582);
+  font-weight: 600 !important;
+  font-size: 18px !important;
+}
+.movie-list-rate > h6 {
+  padding: 1vw;
+  font-weight: 700 !important;
+  font-size: 26px;
+  color: rgb(255, 102, 0);
+  margin: 0 !important ;
+  font-weight: lighter;
+}
+.movie-list-name {
+  font-family: "Oswald";
+  font-weight: 600;
+  font-size: 20px;
+}
+.movie-list-genre {
+  color: rgba(128, 128, 128, 0.582);
+}
+.movie-list-cover {
+  height: 45vh;
+  width: 15vw;
+}
+.no-Content-Found {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 102, 0);
+  h1 {
+    font-size: 3vw;
+  }
+}
